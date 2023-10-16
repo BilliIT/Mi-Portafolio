@@ -146,7 +146,7 @@ while True:
             for cuerpo in cuerpos:
                 cuerpo.goto(5000,5000)
 
-                cuerpo.clear()
+            cuerpos.clear()    
 
             #Reiniciar marcador
             score = 0
